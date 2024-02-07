@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@testorg/lowercase": ["libs/lowercase/src/index.ts"],
+      "@testorg/lowercase-import": ["libs/lowercase-import/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
